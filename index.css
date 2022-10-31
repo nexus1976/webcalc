@@ -1,0 +1,28 @@
+.cw-container {
+	display: grid;
+	column-gap: 5px;
+	row-gap: 8px;
+	grid-template-columns: auto;
+	width: 440px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	padding: 5px;
+	background-color: bisque;
+}
+.cw-number-container {
+	display: grid;
+	column-gap: 5px;
+	row-gap: 8px;
+	grid-template-columns: auto auto auto auto;
+	width: 100%;
+}
+.cw-CE {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.cw-results {
+	text-align: right;
+}

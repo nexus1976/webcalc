@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+		<link href="index.css" rel="stylesheet" />
+		<title>Web Calculator</title>
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div class="cw-container">
+			<input id="txtResults" type="text" readonly class="grid-item cw-results" />
+			<div class="cw-number-container">
+				<button id="btnCE" class="grid-item cw-CE" onclick="doCE()">CE</button>
+				<button id="btnDivide" class="grid-item cw-btn-operation" onclick="doDivide()">&#247;</button>
+				<button id="btn7" class="grid-item cw-btn-number" onclick="numberClick(7)">7</button>
+				<button id="btn8" class="grid-item cw-btn-number" onclick="numberClick(8)">8</button>
+				<button id="btn9" class="grid-item cw-btn-number" onclick="numberClick(9)">9</button>
+				<button id="btnMultiply" class="grid-item cw-btn-operation" onclick="doMultiply()">x</button>
+				<button id="btn4" class="grid-item cw-btn-number" onclick="numberClick(4)">4</button>
+				<button id="btn5" class="grid-item cw-btn-number" onclick="numberClick(5)">5</button>
+				<button id="btn6" class="grid-item cw-btn-number" onclick="numberClick(6)">6</button>
+				<button id="btnSubtract" class="grid-item cw-btn-operation" onclick="doSubtract()">-</button>
+				<button id="btn1" class="grid-item cw-btn-number" onclick="numberClick(1)">1</button>
+				<button id="btn2" class="grid-item cw-btn-number" onclick="numberClick(2)">2</button>
+				<button id="btn3" class="grid-item cw-btn-number" onclick="numberClick(3)">3</button>
+				<button id="btnAdd" class="grid-item cw-btn-operation" onclick="doAdd()">+</button>
+				<button id="btnSign" class="grid-item cw-btn-number" onclick="changeSign()">+/-</button>
+				<button id="btn0" class="grid-item cw-btn-number" onclick="numberClick(0)">0</button>
+				<button id="btnDecimal" class="grid-item cw-btn-number" onclick="addDecimal()">.</button>
+				<button id="btnEquals" class="grid-item cw-btn-operation" onclick="doEquals()">=</button>
+			</div>
+		</div>
+	</body>
+</html>
