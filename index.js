@@ -35,7 +35,7 @@ document.addEventListener('keyup', e => {
 		doSubtract();
 	} else if (e.key === '*') {
 		doMultiply();
-	} else if (e.key === '/') {
+	} else if (e.key === '/' || e.key === 'd' || e.key === 'D') {
 		doDivide();
 	} else if (e.key === 'Enter' || e.key === '=') {
 		doEquals();

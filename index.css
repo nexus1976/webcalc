@@ -10,7 +10,7 @@
 	border-color: black;
 	border-style: solid;
 	padding: 5px;
-	background-color: bisque;
+	background-color: rgb(14, 8, 0);
 }
 .cw-number-container {
 	display: grid;
@@ -26,3 +26,7 @@
 .cw-results {
 	text-align: right;
 }
+.grid-item {
+	background-color: gray;
+}
+ 
