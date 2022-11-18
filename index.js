@@ -92,7 +92,7 @@ const doCE = () => {
 	setTxtResults();
 };
 const setTxtResults = () => {
-	// console.log('result_text', result_text);
+	// console.log('result_text', result_text); // this is a change
 	document.getElementById('txtResults').value = result_text;
 };
 const changeSign = () => {
