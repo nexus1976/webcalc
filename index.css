@@ -1,23 +1,20 @@
+body {
+	background-color: blue;
+}
+
 .cw-container {
 	display: grid;
+	grid-template-columns: auto auto auto auto;
 	column-gap: 5px;
 	row-gap: 8px;
-	grid-template-columns: auto;
 	width: 440px;
 	margin-left: 10px;
 	margin-right: 10px;
 	border-width: 1px;
-	border-color: black;
+	border-color: darkgray;
 	border-style: solid;
 	padding: 5px;
 	background-color: rgb(14, 8, 0);
-}
-.cw-number-container {
-	display: grid;
-	column-gap: 5px;
-	row-gap: 8px;
-	grid-template-columns: auto auto auto auto;
-	width: 100%;
 }
 .cw-CE {
 	grid-column-start: 1;
@@ -25,6 +22,8 @@
 }
 .cw-results {
 	text-align: right;
+	grid-column-start: 1;
+	grid-column-end: 5;
 }
 .grid-item {
 	background-color: gray;
